@@ -134,6 +134,22 @@
 				</excutions>
 				<configuration>
 					<imageName>shoppersRight/${project.artifactId}</imageName>
+					<baseImage>java:8</baseImage>
+					<entryPoint>
+						["java", "-jar", "/opt/${project.build.finalName}.jar"]
+					</entryPoint>
+					<resources>
+						<resource>
+							<targetPath>/opt/</targetPath>
+							<directory>${project.build.directory}</directory>
+							<excludes>
+								<exclude>target/**/*</exclude>
+								<exclude>pom.xml</exclude>
+								<exclude>*.iml</exclude>
+							</excludes>
+							<include>${project.build.finalName}.jar</include>
+						</resource>
+					</resources>
 					<serverId>docker-hub</serverId>
 					<registryUrl>https://index.docker.io/v1/</registryUrl>
 				</configuration>
