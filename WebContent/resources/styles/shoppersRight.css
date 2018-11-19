@@ -1,0 +1,75 @@
+.pageStyling{
+	background: white;
+	box-shadow: 3px 3px 4px;
+}
+
+.defaultFont{
+	font-size: 14px;
+}
+
+.aliceBlue{
+	background:aliceblue;
+}
+
+.headerShadow{
+	border: 1px black solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px grey;
+}
+
+.headerBottomSpace{
+	margin-bottom: 25px;
+}
+
+.labelAlign{
+	text-align: right;
+    padding-top: 10px;	
+    padding-right: 0px !important;
+}
+
+.bodyContentSpace{
+	margin-bottom: 30px;
+}
+
+.buttonSpaceRight{
+	 margin-right: 20px;
+}
+
+.newUserHyperLink{
+	padding-top: 6px;
+    padding-left: 20px;
+}
+
+.footerMargin{
+	margin: 10px;
+}
+
+.margin20{
+	margin: 20px;
+}
+
+.marginTop10{
+	margin-top: 10px;
+}
+
+.footerLogo{
+	margin-left:10px;
+}  
+
+.modalWidth{
+	width:800px !important;
+}
+
+.modal-dialog{
+    margin-top: 30px !important;
+    margin-left: 250px !important;
+}
+
+.error-message {
+ color: red;
+ display: block;
+} 
+ 
+.minHeight200 {
+	min-height: 200px;
+}
